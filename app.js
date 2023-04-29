@@ -32,7 +32,7 @@ const priorityCheck = (requestQuery) => {
 const statusCheck = (requestQuery) => {
   return requestQuery.status !== undefined;
 };
-
+//API 1
 app.get("/todos/", async (request, response) => {
   let todoArray = null;
   let getTodoQuery = "";
